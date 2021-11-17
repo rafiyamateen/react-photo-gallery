@@ -66,6 +66,7 @@
   },
   "scripts": {
     "build": "nps build",
+    "prepare": "npm run build",
     "build:docs": "NODE_ENV=production nps build:docs",
     "start": "webpack-dev-server --progress",
     "lint": "eslint -c ./.eslintrc.js ./src",
